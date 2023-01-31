@@ -16,13 +16,16 @@
   font-size: 3rem;
 }
 
+.page-background {
+  background-color: #E0E2EE;
+}
+
 .about {
   background-color: #E0E2EE;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #221A23;
-  font-size: 100px;
 }
 
 .work {
@@ -31,15 +34,12 @@
   background-size: fill;
   background-repeat: no-repeat;
   color: #221A23;
-  font-size: 100px;
 }
 
 .contact {
   background-color: #E0E2EE;
-  /* background-position: center; */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #221A23;
-  font-size: 100px;
-  height: 40vh;
 }

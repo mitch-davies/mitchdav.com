@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './components/pages/Home';
-import About from './components/pages/About';
+// import About from './components/pages/About';
 // import Work from './components/pages/Work';
 import Contact from './components/pages/Contact';
 
@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' exact element={<Home/>} />
-          <Route path='/about' element={<About/>} />
+          {/* <Route path='/about' element={<About/>} /> */}
           {/* <Route path='/work' element={<Work/>} /> */}
           <Route path='/contact' element={<Contact/>} />
         </Routes>

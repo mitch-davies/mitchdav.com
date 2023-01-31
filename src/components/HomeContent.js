@@ -8,7 +8,7 @@ function HomeContent() {
       <div className='home-container'>
         {/* <img src="/images/bg.png" alt="background" /> */}
           <div className='row'>
-            <h3>Hey! I'm Mitchell Davies👋</h3>
+            <h3>Hey! I'm Mitchell Davies</h3>
           </div>
           <div className='row'>
             <h1 className='h1-homepage'>I'm a product designer working around the world from <strong>Cape Town, South Africa</strong></h1>

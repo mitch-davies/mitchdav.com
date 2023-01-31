@@ -1,0 +1,21 @@
+
+.about-container {
+    display: flex;
+    height: 40vh;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.about-description {
+    background-color: white;
+}
+
+.profile-picture {
+    display: flex;
+    max-width: 200px;
+    justify-content: center;
+    height: 24px;
+    text-align: center;
+}

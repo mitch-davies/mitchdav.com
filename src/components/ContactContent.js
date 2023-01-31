@@ -3,7 +3,9 @@ import './ContactContent.css'
 
 function ContactContent() {
   return (
-    <div className='contact-parent'>
+    <div className='page-background'>
+            <h1 className="contact">Give me a shout, I'd love to connect with you!</h1>
+            <div className='contact-parent'>
         <div className='contact-card'>
             <div className="card-title">
                 <h2 className='contact-heading'>Email</h2>
@@ -20,6 +22,7 @@ function ContactContent() {
                 {/* <a className='contact-links' href='https://linkedin.com/in/mitch-dav' target="blank"><i class="fa-brands fa-linkedin"></i> </a> */}
             </div>
         </div>
+    </div>
     </div>
   )
 }

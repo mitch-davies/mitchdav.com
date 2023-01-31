@@ -23,12 +23,12 @@ const closeMobileMenu = () => setClick(false);
                     {/* <li className='nav-item'>
                         <Link to='/' className='nav-links' onClick={closeMobileMenu}>Home</Link>
                     </li> */}
-                    <li className='nav-item'>
-                        <Link to='/about' className='nav-links' onClick={closeMobileMenu}>About</Link>
-                    </li>
                     {/* <li className='nav-item'>
-                        <Link to='/work' className='nav-links' onClick={closeMobileMenu}>Work</Link>
+                        <Link to='/about' className='nav-links' onClick={closeMobileMenu}>About</Link>
                     </li> */}
+                    <li className='nav-item'>
+                        <Link to='files/resume.pdf' target='_blank' className='nav-links' onClick={closeMobileMenu}>Resume</Link>
+                    </li>
                     <li className='nav-item'>
                         <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>Contact</Link>
                     </li>
