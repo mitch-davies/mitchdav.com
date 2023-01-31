@@ -1,5 +1,5 @@
 .navbar {
-    background: #F5F7FA;
+    background: #E0E2EE;
     height: 80px;
     display: block;
     justify-content: center;
@@ -63,7 +63,7 @@
   }
   
   .nav-links:hover {
-    color:#58FFDE;
+    color:#FF6A1D;
     /* border-bottom: 4px solid #F5F7FA; */
     padding-bottom: 4px;
     transition: all 0.2s ease-out;

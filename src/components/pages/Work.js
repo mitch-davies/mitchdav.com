@@ -5,7 +5,7 @@ import Footer from '../Footer';
 export default function Work() {
     return (
         <>
-        <h1 className="work">Work I've done</h1>
+        <h1 className="work">Some of my work</h1>
         <Footer />
         </>
     );

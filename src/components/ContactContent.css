@@ -1,0 +1,72 @@
+.contact-parent {
+background-color: #E0E2EE;
+justify-content: center;
+height: 40vh;
+text-align: center;
+}
+
+.contact-card {
+display: inline-block;
+justify-content: center;
+text-align: center;
+max-width: 360px;
+vertical-align: middle;
+border-radius: 20px;
+height: 240px;
+margin: 0px 56px 0px 56px;
+}
+
+/* .contact-card:hover {
+transition: all 1ms ease-in;
+background-color: #DDD9F3;
+} */
+
+.card-title {
+    font-weight: 900;
+}
+
+.contact-heading {
+margin-top: 40px;
+margin-bottom: 24px;
+text-align: left;
+}
+
+.contact-links {
+    display: flex;
+    text-decoration: none;
+    /* margin: 40px; */
+    margin-bottom: 24px;
+    color: #221A23;
+    font-weight: 400;
+    text-align: left;
+}
+
+.contact-links:hover {
+    background-color: #FF6A1D;
+    transition: all 2ms ease-in;
+}
+
+.contact {
+    font-size: 54px;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.contact-background {
+ background-color: #E0E2EE;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-heading {
+        text-align: center;
+    }
+
+    .contact-links {
+        text-align: center;
+        display:inline;
+    }
+
+    .contact-heading {
+        font-size: 32px;
+        }
+}

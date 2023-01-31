@@ -10,7 +10,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F5F7FA;
+    background-color: #E0E2EE;
     height:70vh;
     width: 100%;
 }
@@ -57,7 +57,7 @@ h2 {
 }
 
 h3 {
-    color: #8A3FFC;
+    color: #FF6A1D;
     text-align: left;
     font-weight: 700;
     font-size: 24px;
@@ -76,12 +76,12 @@ strong {
         text-align: left;
         /* margin-top: 40px; */
         font-weight: 300;
-        font-size: 40px;
+        font-size: 48px;
         margin-top: 24px;
     }
     
     h3 {
-        color: #8A3FFC;
+        color: #FF6A1D;
         text-align: left;
         font-weight: 700;
         font-size: 24px;
@@ -93,15 +93,15 @@ strong {
         text-align: left;
         /* margin-top: 40px; */
         font-weight: 300;
-        font-size: 32px;
+        font-size: 40px;
         margin-top: 16px;
     }
     
     h3 {
-        color: #8A3FFC;
+        color: #FF6A1D;
         text-align: left;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 32px;
     }
 }
 

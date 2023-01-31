@@ -5,34 +5,34 @@ import './Cards.css'
 function Cards() {
   return (
     <div className='cards'>
-        <h2>Check out some of my work</h2>
+        <h2 className='cards-heading'>My work</h2>
         <div className='cards__container'>
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <CardItem
-                    src='images/images/favicon.svg'
-                    text='Explore the hidden waterfall deep inside the Amazon jungle'
-                    label='Work'
+                    src='images/crossfire.svg'
+                    text='Atlantique'
+                    // label='Work'
                     path='/work'
                     />
                      <CardItem
-                    src='images/favicon.svg'
+                    src='images/crossfire.svg'
                     text='Case study 2 and this is ala really long to see if it affects the overall card size at all'
-                    label='Work'
+                    // label='Work'
                     path='/work'
                     />
                 </ul>
                 <ul className='cards__items'>
                     <CardItem
-                    src='images/images/favicon.svgg'
-                    text='Explore the hidden waterfall deep inside the Amazon jungle'
-                    label='Work'
+                    src='images/favicon.svg'
+                    text='This is also working wtf'
+                    // label='Work'
                     path='/work'
                     />
                      <CardItem
                     src='images/favicon.svg'
-                    text='Case study 2 and this is ala really long to see if it affects the overall card size at all'
-                    label='Work'
+                    text='This one works'
+                    // label='Work'
                     path='/work'
                     />
                 </ul>

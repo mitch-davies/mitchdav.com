@@ -17,7 +17,7 @@
 }
 
 .about {
-  background-color: #F5F7FA;
+  background-color: #E0E2EE;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
 }
 
 .work {
-  background-color: #F5F7FA;
+  background-color: #E0E2EE;
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -35,10 +35,11 @@
 }
 
 .contact {
-  background-color: #F5F7FA;
+  background-color: #E0E2EE;
   /* background-position: center; */
   /* background-size: cover; */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   color: #221A23;
   font-size: 100px;
+  height: 40vh;
 }
