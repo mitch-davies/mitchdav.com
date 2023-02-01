@@ -70,4 +70,12 @@ text-align: left;
     .contact-heading {
         font-size: 32px;
         }
+
+    .contact {
+        height: auto;
+    }
+
+    .contact-parent {
+        height: auto;
+    }
 }
