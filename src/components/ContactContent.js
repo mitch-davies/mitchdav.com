@@ -11,7 +11,7 @@ function ContactContent() {
                 <h2 className='contact-heading'>Email</h2>
                 <a className='contact-links' href='mailto:mdavies259@gmail.com' target="blank">mdavies259@gmail.com</a>
                 <a className='contact-links' href='mailto:mdavies259@gmail.com' target="blank">
-                <i class="fa-light fa-circle-envelope"></i> 
+                <i className="fa-light fa-circle-envelope"></i> 
                 </a>
             </div>
         </div>
