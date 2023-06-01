@@ -1,14 +1,55 @@
 .contact-parent {
-background-color: #E0E2EE;
+background-color: #221A23;
 justify-content: center;
 height: 40vh;
 text-align: center;
+align-items: center;
+}
+
+.h1-contact {
+    color:#E0E2EE;
+    font-weight:700;
+    font-size: 54px;
+    margin-left: 16%;
+    margin-right: 16%;
+    padding-top:80px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #221A23;
+    height:40vh;
+    width: 100%;
+    padding-top:80px;;
+}
+
+.contact-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #221A23;
+    height:60vh;
+    width: 100%;
+    padding-bottom: 240px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .contact-card {
 display: inline-block;
 justify-content: center;
 text-align: center;
+flex-direction: row;
 max-width: 360px;
 vertical-align: middle;
 border-radius: 20px;
@@ -29,6 +70,7 @@ background-color: #DDD9F3;
 margin-top: 40px;
 margin-bottom: 24px;
 text-align: left;
+color: #B1A5F8;
 }
 
 .contact-links {
@@ -36,30 +78,34 @@ text-align: left;
     text-decoration: none;
     /* margin: 40px; */
     margin-bottom: 24px;
-    color: #221A23;
+    color:#D2F3ED;
     font-weight: 400;
     text-align: left;
 }
 
 .contact-links:hover {
-    background-color: #FF6A1D;
+    background-color: #8A3FFC;
     transition: all 2ms ease-in;
 }
 
 .contact {
-    font-size: 54px;
-    margin-left: 16%;
-    margin-right: 16%;
     height: 40vh;
+    background-color: #221A23;
+    color:#E0E2EE;
 }
 
+
 .contact-background {
- background-color: #E0E2EE;
+ background-color: #221A23;
 }
 
 @media screen and (max-width: 768px) {
     .contact-heading {
         text-align: center;
+    }
+
+    .contact-detail {
+        flex-direction: column;
     }
 
     .contact-links {
@@ -74,6 +120,13 @@ text-align: left;
     .contact {
         height: auto;
     }
+
+    /* .contact-detail{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    } */
 
     .contact-parent {
         height: auto;

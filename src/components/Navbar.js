@@ -27,10 +27,10 @@ const closeMobileMenu = () => setClick(false);
                         <Link to='/about' className='nav-links' onClick={closeMobileMenu}>About</Link>
                     </li> */}
                     <li className='nav-item'>
-                        <Link to='files/Mitchell Davies - Product Designer - CV.pdf' target='_blank' className='nav-links' onClick={closeMobileMenu}>Resume</Link>
+                        <Link to='files/Mitchell Davies - Product Designer - CV.pdf' target='_blank' className='nav-links fix-stroke' onClick={closeMobileMenu}>Resume</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>Contact</Link>
+                        <Link to='/contact' className='nav-links fix-stroke' onClick={closeMobileMenu}>Contact</Link>
                     </li>
                 </ul>
             </div>
