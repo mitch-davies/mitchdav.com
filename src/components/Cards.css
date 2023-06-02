@@ -179,3 +179,16 @@
       margin-bottom: 2rem;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    .project-info {
+      width: 372px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .project-info {
+      width: 272px;
+    }
+  }
+ 
