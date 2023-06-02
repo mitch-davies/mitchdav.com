@@ -104,8 +104,13 @@ color: #B1A5F8;
         text-align: center;
     }
 
+    .contact-section {
+        height: auto;
+    }
+
     .contact-detail {
         flex-direction: column;
+        margin-bottom: 0;
     }
 
     .contact-links {
