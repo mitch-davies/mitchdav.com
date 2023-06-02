@@ -83,7 +83,6 @@
     color: #E0E2EE;
     font-size: 2rem;
     padding-right: 8px;
-    justify-content: middle;
   }
   
   .nav-links-mobile {
@@ -91,9 +90,7 @@
   }
   
   .menu-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: none;
   }
   
   @media screen and (max-width: 960px) {
