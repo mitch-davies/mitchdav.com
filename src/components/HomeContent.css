@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-.home-container {
+.home-contain {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,6 +140,10 @@ strong {
 }
 
 @media screen and (max-width: 768px) {
+  .home-contain {
+    margin-bottom: 100px;
+}
+  
     .h1-homepage {
         text-align: left;
         /* margin-top: 40px; */

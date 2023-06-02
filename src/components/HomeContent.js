@@ -7,7 +7,7 @@ function HomeContent() {
   return (
     <>
 <section className='home-section'>
-    <div className='home-container'>
+    <div className='home-contain'>
         {/* <img src="/images/bg.png" alt="background" /> */}
         <div className='row'>
             <h3>Hey! I'm Mitchell Davies 👋</h3>
