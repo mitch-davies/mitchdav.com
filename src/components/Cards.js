@@ -6,24 +6,24 @@ function Cards() {
     <div>
   <div className="project-card-container">
         <div className="project-card" data-aos="fade-up">
-            <img src="files/work-prodigy.svg" alt="project display" className="project-image"/>
+            <img src="/images/prodigy.png" alt="project display" className="project-image"/>
             <div className="project-info">
                 <h1 className="work-title">Prodigy Finance</h1>
-                <p className="project-description">I led the redesign of the mobile app repayment flow, making it easier for customers to repay their student loans from anywhere in the world.<br/><br/>Simplifying each step allowed users to focus on a single task at a time, which reduced cognitive load and improved user understanding. In doing so we more than doubled repayment rates through the mobile repayment channel.</p>
+                <p className="project-description">Refreshed the mobile app repayment journey, creating a user-friendly solution for international students repaying their loans. Our streamlined, task-oriented process significantly reduced cognitive load, enhancing user comprehension and completion. This redesign doubled repayment rates via mobile, making loan repayment simpler and faster from anywhere globally.</p>
             </div>
         </div>
         <div className="project-card" data-aos="fade-up">
-            <img src="/files/work-crossfire.svg" alt="project display" className="project-image"/>
+            <img src="/images/crossfire.png" alt="project display" className="project-image"/>
             <div className="project-info">
                 <h1 className="work-title">Crossroads Health</h1>
-                <p className="project-description">Working closely with the founders, I defined the product strategy and led the design and build of the company’s flagship product, Crossfire. It’s unlocked operational speed and efficiency at scale - enabling the business to grow from 3 analysts working manual processes on spreadsheets, to a team of 70+ analysts.<br/><br/>To date Crossfire has enabled the resolution of over $100 million in credit balances in the US healthcare system. In addition, Crossfire provides built in reporting to the business and its clients, helping them to analyse, understand and share information on throughput volumes, trends and productivity.</p>
+                <p className="project-description">Managing the execution of product strategy and crafted the core design for our breakthrough product, Crossfire, which has enabled company growth transforming operations from 3 analysts to an efficient team of over 70+.<br/><br/>As of now, Crossfire has streamlined the resolution of $100+ million in credit balances in US healthcare. Additionally, it equips businesses and clients with sophisticated reporting tools for comprehensive analysis and data sharing, keeping them in the loop with throughput volumes, trends, and productivity.</p>
             </div>
         </div>
         <div className="project-card" data-aos="fade-up">
-            <img src="/files/work-offerzen.svg" alt="project display" className="project-image"/>
+            <img src="/images/offerzen.png" alt="project display" className="project-image"/>
             <div className="project-info">
                 <h1 className="work-title">OfferZen</h1>
-                <p className="project-description">Leading end to end discovery and design for the marketplace matching squad, I’ve completed numerous projects resulting in marked improvements in recruitment sourcing efficiency and the rate of matching between companies and candidates.<br/><br/>Notable missions include overhauling the search UI, introducing new search criteria and enabling companies and candidates to align on remote policy preferences early on in the hiring process.</p>
+                <p className="project-description">Steered comprehensive discovery and design for the Marketplace Matching Squad, consistently delivering impactful improvements to recruitment sourcing and candidate-company matching rates.<br/><br/>Key accomplishments include revamping the search UI, incorporating innovative search parameters, and facilitating early alignment on remote policy preferences in the hiring process. These advancements not only boosted marketplace efficiency but also revolutionized the recruitment experience for our customers.</p>
             </div>
         </div>
     </div>
